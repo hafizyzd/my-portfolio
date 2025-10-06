@@ -12,12 +12,20 @@ const image = imageHafiz;
 </script>
 
 <template>
-  <Hero :name="name" :job="job" :description="description" :image="image" />
-  <About
-  small-description=""
-  description="A recent graduate of Information Technology from Telkom University with a specialization in  full-stack programming. Experienced in building responsive and secure web applications using Laravel, VueJS, and NodeJS."
-  github="hafizyzd"
-  linkedin="hafiz-yazid-muhammad"
-  instagram="its.hafizyazid"
-  />
+  <div class="bg-gradient">
+    <Hero :name="name" :job="job" :description="description" :image="image" />
+    <About
+    small-description=""
+    description="A recent graduate of Information Technology from Telkom University with a specialization in  full-stack programming. Experienced in building responsive and secure web applications using Laravel, VueJS, and NodeJS."
+    github="hafizyzd"
+    linkedin="hafiz-yazid-muhammad"
+    instagram="its.hafizyazid"
+    />
+  </div>
 </template>
+
+<style scoped>
+.bg-gradient {
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+}
+</style>

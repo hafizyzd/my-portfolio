@@ -90,7 +90,7 @@ const education = ref([
       <h2 class="fw-bold mt-5">Education</h2>
       <Card v-for="data in education" class="mb-4">
         <CardItem
-          yearColor="red"
+          yearColor="#80A1BA"
           :year="data.year"
           :job="data.major"
           :location="data.location"
@@ -124,7 +124,7 @@ const education = ref([
 }
 
 #position #year {
-  color: blue;
+  color: rgb(51, 51, 103);
   font-weight: bold;
 }
 

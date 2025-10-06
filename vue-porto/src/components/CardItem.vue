@@ -11,7 +11,7 @@ const props = defineProps({
 <template>
   <div class="row px-3 py-2">
     <div class="col-md-4 p-4">
-      <p id="year" :style="{ color: props.yearColor ?? 'blue' }">
+      <p id="year" :style="{ color: props.yearColor ?? '#80A1BA' }">
         {{ props.year }}
       </p>
       <p id="job">{{ props.job }}</p>

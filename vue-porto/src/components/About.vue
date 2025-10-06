@@ -10,7 +10,7 @@ const props = defineProps({
 
 <template>
   <!-- make about me -->
-  <div class="bg-light p-5">
+  <div class="p-5">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12">
