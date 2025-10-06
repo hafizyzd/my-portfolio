@@ -9,80 +9,57 @@ const skill = ref([
   "CSS",
   "Javascript",
   "PHP",
-  "SQL",
   "Node JS",
   "Python",
+  "Java",
   "Laravel",
   "Vue",
-  "React",
+  "C++/C",
+  "MySQL",
+  "SQLite",
+  "Oracle SQL",
+  "Internet of Things",
+  "Restful API"
 ]);
 
 const experience = ref([
   {
-    year: "2019 - Present",
-    job: "Web Developer",
-    location: "Stark Industries Los Angeles, CA",
+    year: "Mar 2025 - Jun 2025",
+    job: "Software Engineer Internship",
+    location: "Direktorat Jenderal Bea Cukai, Jakarta",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
+      "For four months, I designed and developed a web-based violation data recapitulation system using Laravel & MySQL from start to finish. I also created an interactive dashboard that successfully reduced data analysis time and significantly improved system responsiveness.",
   },
   {
-    year: "2012 - Present",
-    job: "Full Stack Developer",
-    location: "Indonesia Jakarta",
+    year: "Oct 2024 - Feb 2025",
+    job: "Chief Internet of Things",
+    location: "Arcadia Flora Tech, Bandung",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
+      "I led the IoT product development cycle from concept to functional prototype in 5 months. My contribution in designing a real-time monitoring system helped the startup achieve Problem-Solution Fit validation (SRL 2) and gain recognition as a “GOOD Startup.”",
   },
   {
-    year: "2011 - Present",
-    job: "Frontend Developer",
-    location: "Indonesia Jakarta",
+    year: "Feb 2024 - Jan 2025",
+    job: "Assistant Practicum",
+    location: "Informatics Lab Telkom University, Bandung",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
+      "Mentored more than 100 students in web programming and database practicums, successfully imparting material comprehension based on final student evaluations.",
   },
   {
-    year: "2021 - Present",
-    job: "Backend Developer",
-    location: "Indonesia Jakarta",
+    year: "Mar 2024 - Aug 2025",
+    job: "Software Engineer",
+    location: "Bandung Techno Park, Bandung",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
-  },
-  {
-    year: "2033 - Present",
-    job: "Mobile Developer",
-    location: "Indonesia Jakarta",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
+      "Developing the “SpaceRent BTP” application in 6 months, successfully increased room management and booking efficiency by up to50% through an automated system.",
   },
 ]);
 
 const education = ref([
   {
-    year: "2011 - 2015",
-    major: "Bachelor of Computer Science",
-    location: "University of Indonesia",
+    year: "2021 - 2025",
+    major: "Bachelor of Information Technology",
+    location: "Telkom University",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
-  },
-  {
-    year: "2008 - 2011",
-    major: "Senior High School",
-    location: "SMK Negeri 1 Jakarta",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
-  },
-  {
-    year: "2005 - 2008",
-    major: "Junior High School",
-    location: "SMP Negeri 1 Jakarta",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
-  },
-  {
-    year: "1999 - 2005",
-    major: "Elementary School",
-    location: "SD Negeri 1 Jakarta",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat quidem beatae modi eius possimus expedita, sint, eum perferendis dignissimos quas",
+      "I am a Bachelor of Information Technology graduate from Telkom University with Cumlaude predicate and GPA 3.84/4.00. During my study period from August 2021 to August 2025, I was active in academic and innovation activities",
   },
 ]);
 </script>
