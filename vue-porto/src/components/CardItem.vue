@@ -11,11 +11,11 @@ const props = defineProps({
 <template>
   <div class="row px-3 py-2">
     <div class="col-md-4 p-4">
-      <p id="year" :style="{ color: props.yearColor ?? '#80A1BA' }">
+      <p id="year" :style="{ color: props.yearColor ?? '#fff' }">
         {{ props.year }}
       </p>
       <p id="job">{{ props.job }}</p>
-      <p id="location" class="text-secondary">
+      <p id="location" class="">
         <i>{{ props.location }}</i>
       </p>
     </div>
@@ -29,8 +29,8 @@ const props = defineProps({
 
 <style scoped>
 .col-md-4 {
-  height: 150px;
-  background-color: rgb(248, 248, 248);
+  height: auto;
+  background-color: #1B3C53;
   border-radius: 10px;
 }
 

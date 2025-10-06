@@ -55,7 +55,7 @@ const experience = ref([
 
 const education = ref([
   {
-    year: "2021 - 2025",
+    year: "Aug 2021 - Aug 2025",
     major: "Bachelor of Information Technology",
     location: "Telkom University",
     description:
@@ -67,7 +67,7 @@ const education = ref([
 <template>
   <!-- make resume component -->
   <div class="container" id="resume">
-    <div class="col-md-6 mx-auto">
+    <div class="col-md-8 mx-auto">
       <h1 class="text-center fw-bold fs-1">Resume</h1>
 
       <!-- Skill -->
@@ -90,7 +90,7 @@ const education = ref([
       <h2 class="fw-bold mt-5">Education</h2>
       <Card v-for="data in education" class="mb-4">
         <CardItem
-          yearColor="#80A1BA"
+          yearColor="#fff"
           :year="data.year"
           :job="data.major"
           :location="data.location"

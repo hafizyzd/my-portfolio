@@ -2,34 +2,47 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color: #234C6A;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+body {
+  background-color: #1e3a8a;
+  color: #fff;
 }
-a:hover {
-  color: #535bf2;
+.navbar {
+  background-color: #1e40af !important;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
 }
-a:hover {
-  color: #535bf2;
+.card {
+  background-color: #2a2a2a !important;
+  color: #fff;
+  border: 1px solid #444;
+}
+.bg-light {
+  background-color: #333 !important;
+}
+.text-secondary {
+  color: #aaa !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+p {
+  color: #ccc;
 }
 
 body {
