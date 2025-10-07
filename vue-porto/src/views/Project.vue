@@ -19,7 +19,7 @@ onMounted(() => {
 </script>
 <template>
   <div class="container" id="project">
-    <div class="col-md-6 mx-auto">
+    <div class="col-md-10 mx-auto">
       <h1 class="text-center fw-bold fs-1 mt-5">My Projects</h1>
       <Card v-for="data in query" class="my-5">
         <div class="row">

@@ -3,6 +3,16 @@ import { ref } from "vue";
 import Card from "../components/Card.vue";
 import CardItem from "../components/CardItem.vue";
 import List from "../components/ItemList.vue";
+import Achievement from "../components/Achievement.vue";
+import Hero from "../components/Hero.vue";
+import About from "../components/About.vue";
+import imageHafiz from "../assets/img/Hafiz_4x6.jpg";
+
+const name = "Hafiz Yazid Muhammad";
+const job = "IT Developer";
+const description =
+  "Fresh graduate of Telkom University's Information Technology program, specializing in full-stack programming. Experienced in designing and building responsive and secure web applications using Laravel, VueJS, NodeJS, and relational databases such as MySQL and Oracle SQL. Familiar with clean architecture approaches, performance optimization, and efficient API development. Actively contributes to full- stack programming projects with measurable results and is ready to make a positive impact as a solution- oriented full- stack programmer.";
+const image = imageHafiz;
 
 const skill = ref([
   "HTML",
@@ -62,9 +72,29 @@ const education = ref([
       "I am a Bachelor of Information Technology graduate from Telkom University with Cumlaude predicate and GPA 3.84/4.00. During my study period from August 2021 to August 2025, I was active in academic and innovation activities",
   },
 ]);
+
+
+const achievements =  ref([
+  {
+    year: "2023",
+    job: "Tim Leader",
+    title:"Finalist Top 163 Telkom Indonesia Innovillage Social Project Program",
+    description: "AquaFlow GreenHouse is a smart solution designed for the care of roses, integrating an IoT-based automated monitoring and watering system to simplify tasks for farmers.",
+  },
+  {
+    year: "2025",
+    job: "Presenter and Author",
+    title:"Publication of the International Seminar on Intelligent Technology and Its Applications (ISITIA) 2025",
+    description: "journal with the title “Knowledge Distillation for SQL Injection Detection on Edge IoT Dashboards Using BiLSTM"
+  },
+
+])
 </script>
 
 <template>
+  <div>
+    <Hero :name="name" :job="job" :description="description" :image="image" />
+  </div>
   <!-- make resume component -->
   <div class="container" id="resume">
     <div class="col-md-8 mx-auto">
@@ -96,6 +126,26 @@ const education = ref([
           :location="data.location"
           :description="data.description" />
       </Card>
+
+      <!-- Achievement -->
+       <h2 class="fw-bold mt-5">Achievement</h2>
+       <Card v-for="data in achievements" class="mb-4">
+          <Achievement  
+          :year="data.year" 
+          :job="data.job"
+          :title="data.title" 
+          :description="data.description"
+          />
+       </Card>
+    </div>
+    <div>
+      <About
+        small-description=""
+        description="A recent graduate of Information Technology from Telkom University with a specialization in  full-stack programming. Experienced in building responsive and secure web applications using Laravel, VueJS, and NodeJS."
+        github="hafizyzd"
+        linkedin="hafiz-yazid-muhammad"
+        instagram="its.hafizyazid"
+      />
     </div>
   </div>
 

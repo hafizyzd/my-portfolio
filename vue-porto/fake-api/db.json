@@ -2,25 +2,33 @@
   "porto": [
     {
       "id": "1",
-      "title": "Marketplace Estimator.ID",
-      "image": "https://user-images.githubusercontent.com/80609220/210924922-b9091cce-52c9-4bd3-bdc1-2f4a4b06f3a4.png",
-      "description": "Aplikasi Marketplace Estimator.id adalah platform jual beli bahan material dan peralatan bangunan. Berbagai macam brand dari berbagai produk dan mitra yang telah bekerja sama dengan Estimator.id.",
+      "title": "Custom Investigation Integration System (CIIS)",
+      "image": "/img/bea-cukai.png",
+      "description": "Developed a full-stack web application, the Custom Investigation Integration System (CIIS), specifically for the Directorate General of Customs and Excise. This project aimed to streamline the management and analysis of investigation data by transforming raw information from Excel files into actionable insights via an interactive dashboard.",
       "link_demo": "https://www.porto.pt/",
-      "link_github": "https://github.com/rizkidarmawan21/laravel8-wpu"
+      "link_github": "https://github.com/hafizyzd/DashboardPenyidikBeaCukai.git"
     },
     {
       "id": "2",
-      "title": "Cloning Website Game Runic Saga",
-      "image": "https://user-images.githubusercontent.com/80609220/204021286-033c225d-26fe-4f77-9b42-425993d9be3d.png",
-      "description": "Website ini merupakan hasil belajar saya mengenai slicing dengan Bootstrap dan custom Boostrap dengan CSS.",
-      "link_demo": "https://rizkidarmawan21.github.io/web-runic-saga/",
-      "link_github": "https://github.com/rizkidarmawan21/web-runic-saga"
+      "title": "Dynamic SQL Injection Detection Using Deep Learning Models with Flask API",
+      "image": "/img/cnn-lstm.png",
+      "description": "The project is a final college assignment to develop a system for dynamically detecting SQL injection cyber attacks in real time on web applications. This system uses an artificial intelligence model (deep learning) with a combined CNN-LSTM (Convolutional Neural Network-Long Short-Term Memory) architecture that is trained to distinguish between benign and malicious queries. The trained model is then integrated into a Flask API, which functions as a backend service to analyze user input. The main web application is built using the Laravel 10 framework, which sends user form input data to the Flask API for checking before the data is stored in the database, thereby preventing attacks before they occur.",
+      "link_demo": "",
+      "link_github": "https://github.com/hafizyzd/Flask_API_TA.git"
     },
     {
       "id": "3",
-      "title": "Thamasya E-Ticketing - React Native",
-      "image": "https://rizkidarmawan21.github.io/assets/img/thamasya/7.jpeg",
-      "description": "Merupakan aplikasi pemesanan tiket wisata berbasis mobile, untuk memudahkan para turis untuk memesan tiket wisata yang ada di Kota Semarang dan Kabupaten Semarang Aplikasi ini dikembangankan dengan React Native. Aplikasi ini masih memiliki batasan yaitu hanya UI/UX saja.",
+      "title": "SpaceRent BTP - Website Penyewaan Ruangan di Bandung Techno Park",
+      "image": "/img/btp.jpg",
+      "description": "This project was undertaken to address the needs of Bandung Techno Park for a comprehensive web-based system that could efficiently manage and facilitate the rental of rooms within their facilities. The goal was to create a secure, scalable, and user-friendly platform using Laravel that would streamline the process of room bookings, provide real-time availability, and handle user interactions seamlessly.",
+      "link_demo": "",
+      "link_github": "https://github.com/tutupharirabu/Project-BTP.git"
+    },
+    {
+      "id": "4",
+      "title": "Telkom Innovillage 2023 AquaFlow GreenHouse",
+      "image": "/img/innovillage.jpg",
+      "description": "AquaFlow GreenHouse is a smart solution designed for the care of roses, integrating an IoT-based automated monitoring and watering system to simplify tasks for farmers. Utilizing the ESP32 module and various sensors, including those for measuring temperature, soil moisture, humidity and others, this system ensures optimal conditions for the cultivation of ornamental rose plants. Securing project funding of 13 million Rupiah, and placing in the top 163 nationally in the Innovillage Competition, highlights its innovative approach. This project mainly focuses on automatic irrigation, utilizing time, humidity and temperature as the main parameters.",
       "link_demo": "",
       "link_github": "https://github.com/rizkidarmawan21/Thamasya-apps"
     }

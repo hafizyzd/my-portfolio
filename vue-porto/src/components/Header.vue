@@ -19,17 +19,17 @@ import { RouterLink } from "vue-router";
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <RouterLink to="/" class="nav-link">Home </RouterLink>
+            <RouterLink to="/" class="nav-link">About </RouterLink>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <RouterLink to="/resume" class="nav-link">Resume</RouterLink>
-          </li>
+          </li> -->
           <li class="nav-item">
             <RouterLink to="/project" class="nav-link">Project</RouterLink>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link">Contact</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
