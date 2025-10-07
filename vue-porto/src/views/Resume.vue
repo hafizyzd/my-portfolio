@@ -66,7 +66,7 @@ const experience = ref([
 const education = ref([
   {
     year: "Aug 2021 - Aug 2025",
-    major: "Bachelor of Information Technology",
+    major: "Information Technology",
     location: "Telkom University",
     description:
       "I am a Bachelor of Information Technology graduate from Telkom University with Cumlaude predicate and GPA 3.84/4.00. During my study period from August 2021 to August 2025, I was active in academic and innovation activities",

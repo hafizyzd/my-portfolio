@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
   <div
-    class="container d-flex align-items-center justify-content-center mt-5 mb-2"
+    class="container d-flex align-items-center justify-content-center mt-6 mb-3"
     style="height: 100vh; wight: 100vh">
     <div class="row d-flex align-items-center items-centers">
       <div class="col-md-6 d-grid gap-3">

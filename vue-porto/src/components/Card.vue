@@ -13,8 +13,3 @@ const props = defineProps({
   </div>
 </template>
 
-<style scoped>
-.card {
-  border: 0px;
-}
-</style>

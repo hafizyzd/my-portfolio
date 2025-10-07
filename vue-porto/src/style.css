@@ -12,7 +12,7 @@
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background-color: #1e3a8a;
+  background-color: #101828;
   color: #fff;
 }
 .navbar {
@@ -23,9 +23,22 @@ body {
   color: #fff !important;
 }
 .card {
-  background-color: #2a2a2a !important;
+  background-color: #1e2939 !important;
   color: #fff;
-  border: 1px solid #444;
+  /* Border default (solid) */
+  border: 1px solid #456882;
+  padding: 2em;
+  /* Transisi yang lebih halus dengan durasi lebih panjang dan timing function 'ease-out' */
+  transition: all 0.4s ease-out;
+}
+
+.card:hover {
+  /* Border ketika di-hover (dashed) */
+  border: 1px dashed #456882;
+  /* Mengurangi jarak pergerakan agar tidak terlalu drastis */
+  transform: translateY(-5px);
+  /* Menambahkan sedikit shadow untuk efek kedalaman */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .bg-light {
   background-color: #333 !important;
