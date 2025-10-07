@@ -6,15 +6,10 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="card shadow bg-body rounded-4" :class="class">
+  <div class="card shadow bg-gray-800 rounded-4 " :class="class">
     <div class="card-body">
       <slot></slot>
     </div>
   </div>
 </template>
 
-<style scoped>
-.card {
-  border: 0px;
-}
-</style>

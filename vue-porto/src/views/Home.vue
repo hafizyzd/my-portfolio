@@ -12,7 +12,6 @@ const image = imageHafiz;
 </script>
 
 <template>
-  <div class="bg-gradient">
     <Hero :name="name" :job="job" :description="description" :image="image" />
     <About
     small-description=""
@@ -21,11 +20,4 @@ const image = imageHafiz;
     linkedin="hafiz-yazid-muhammad"
     instagram="its.hafizyazid"
     />
-  </div>
 </template>
-
-<style scoped>
-.bg-gradient {
-    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
-}
-</style>

@@ -1,26 +1,24 @@
 <script setup>
 const props = defineProps({
-  year: Number,
-  job: String,
-  location: String,
+  year: String,
+  job:  String,
+  title: String,
   description: String,
   yearColor: String,
 });
 </script>
 
 <template>
-  <div class="row px-3 py-2">
+  <div class="row px-3 py-2 align-items-center mt-3">
     <div class="col-md-4 p-4">
       <p id="year" :style="{ color: props.yearColor ?? '#fff' }">
         {{ props.year }}
       </p>
       <p id="job">{{ props.job }}</p>
-      <p id="location" class="">
-        <i>{{ props.location }}</i>
-      </p>
     </div>
-    <div class="col-md-8 d-flex" id="description">
-      <p class="align-self-center mt-3 lg-mt-0" align="justify">
+    <div class="col-md-8 text-start">
+      <h6 class="fw-bold">{{ props.title }}</h6>
+      <p align="justify">
         {{ props.description }}
       </p>
     </div>
@@ -40,9 +38,5 @@ const props = defineProps({
 
 .col-md-4 #year {
   font-weight: bold;
-}
-
-.col-md-4 #location {
-  font-size: 13px;
 }
 </style>

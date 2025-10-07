@@ -2,34 +2,60 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color: #234C6A;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+body {
+  background-color: #101828;
+  color: #fff;
+}
+.navbar {
+  background-color: #1e40af !important;
+}
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+}
+.card {
+  background-color: #1e2939 !important;
+  color: #fff;
+  /* Border default (solid) */
+  border: 1px solid #456882;
+  padding: 2em;
+  /* Transisi yang lebih halus dengan durasi lebih panjang dan timing function 'ease-out' */
+  transition: all 0.4s ease-out;
+}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+.card:hover {
+  /* Border ketika di-hover (dashed) */
+  border: 1px dashed #456882;
+  /* Mengurangi jarak pergerakan agar tidak terlalu drastis */
+  transform: translateY(-5px);
+  /* Menambahkan sedikit shadow untuk efek kedalaman */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-a:hover {
-  color: #535bf2;
+.bg-light {
+  background-color: #333 !important;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+.text-secondary {
+  color: #aaa !important;
 }
-a:hover {
-  color: #535bf2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+p {
+  color: #ccc;
 }
 
 body {
