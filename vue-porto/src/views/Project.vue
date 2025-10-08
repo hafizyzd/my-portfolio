@@ -31,10 +31,10 @@ onMounted(() => {
             <p>
               {{ data.description }}
             </p>
-              <a :href="data.link_demo" class="btn btn-secondary btn-sm">
+              <RouterLink :to="{name: 'project-details', params: {id: data.id}}" class="btn btn-secondary btn-sm">
                 <span class="material-symbols-outlined">frame_inspect</span>
                 View Details
-              </a>
+              </RouterLink>
               <a :href="data.link_github" class="ms-1 btn btn-primary btn-sm">
                 <span class="material-symbols-outlined">code</span>
                 Source Code

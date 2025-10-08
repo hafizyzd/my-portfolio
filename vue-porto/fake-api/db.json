@@ -5,8 +5,20 @@
       "title": "Custom Investigation Integration System (CIIS)",
       "image": "/img/bea-cukai.png",
       "description": "Developed a full-stack web application, the Custom Investigation Integration System (CIIS), specifically for the Directorate General of Customs and Excise. This project aimed to streamline the management and analysis of investigation data by transforming raw information from Excel files into actionable insights via an interactive dashboard.",
-      "link_demo": "https://www.porto.pt/",
-      "link_github": "https://github.com/hafizyzd/DashboardPenyidikBeaCukai.git"
+      "link_demo": "/project/1",
+      "link_github": "https://github.com/hafizyzd/DashboardPenyidikBeaCukai.git",
+      "key_features": [
+        "Automated Excel Import: Upload Excel reports for automatic parsing and database integration.",
+        "Interactive Dashboard: Visualize key metrics with dynamic pie and bar charts for quick analysis.",
+        "Data Management & Export: A searchable and filterable data table with a one-click export-to-Excel feature.",
+        "Secure Authentication: Role-based login system to protect sensitive data and ensure authorized access."
+      ],
+      "tools": [
+        "Laravel 12", "MySQL", "Laravel", "Laragon", "Blade", "HTML", "CSS", "JavaScript (for charting)", "Git", "GitHub", "Composer"
+      ],
+      "project_images": [
+        "/project-details/bc-login.png", "/project-details/bc-dashboard.png","/img/bea-cukai.png" , "/project-details/bc-upload-excel.png", "/project-details/bc-upload-form.png"
+      ]
     },
     {
       "id": "2",
@@ -14,7 +26,20 @@
       "image": "/img/cnn-lstm.png",
       "description": "The project is a final college assignment to develop a system for dynamically detecting SQL injection cyber attacks in real time on web applications. This system uses an artificial intelligence model (deep learning) with a combined CNN-LSTM (Convolutional Neural Network-Long Short-Term Memory) architecture that is trained to distinguish between benign and malicious queries. The trained model is then integrated into a Flask API, which functions as a backend service to analyze user input. The main web application is built using the Laravel 10 framework, which sends user form input data to the Flask API for checking before the data is stored in the database, thereby preventing attacks before they occur.",
       "link_demo": "",
-      "link_github": "https://github.com/hafizyzd/Flask_API_TA.git"
+      "link_github": "https://github.com/hafizyzd/Flask_API_TA.git",
+      "key_features": [
+        "Real-Time Dynamic Detection: This system actively detects SQL injection threats directly from user input for real-time prevention.",
+        "Hybrid Deep Learning Model (CNN-LSTM): This project relies on a combination of CNN and LSTM models to accurately recognize complex SQL injection attack patterns.",
+        "Integration via Flask API: Detection functionality is provided via Flask API, enabling easy and flexible integration with various web applications.",
+        "Fast Response Speed: With an average detection speed of 321.54 milliseconds, this system can analyze input without disrupting the user experience.",
+        "Application in Laravel 10 Web Applications: This system has been successfully implemented in web applications built with the Laravel 10 framework for validation in modern environments."
+      ],
+      "tools": [
+        "Laravel 10", "Flask Rest API", "CNN-LSTM", "Keras", "GloVe (Global Vectors for Word Representation)" ,"Python", "PHP" ,"Dataset Kaggle"
+      ],
+      "project_images": [
+        "/project-details/ta-accuracy.png", "/project-details/ta-accuracy-result.png","/project-details/ta-ac-lost.png" , "/project-details/ta-confusion-mtx.png", "/project-details/ta-map.png", "/project-details/ta-result.jpg"
+      ]
     },
     {
       "id": "3",
@@ -30,33 +55,27 @@
       "image": "/img/innovillage.jpg",
       "description": "AquaFlow GreenHouse is a smart solution designed for the care of roses, integrating an IoT-based automated monitoring and watering system to simplify tasks for farmers. Utilizing the ESP32 module and various sensors, including those for measuring temperature, soil moisture, humidity and others, this system ensures optimal conditions for the cultivation of ornamental rose plants. Securing project funding of 13 million Rupiah, and placing in the top 163 nationally in the Innovillage Competition, highlights its innovative approach. This project mainly focuses on automatic irrigation, utilizing time, humidity and temperature as the main parameters.",
       "link_demo": "",
-      "link_github": "https://github.com/rizkidarmawan21/Thamasya-apps"
+      "link_github": "",
+      "key_features": [
+        "IoT-Based Automatic Monitoring: The system monitors the vital conditions of rose plants in real time, such as temperature, soil moisture, and air humidity, using a series of sensors.",
+        "Smart and Efficient Watering: Watering is done automatically based on time, temperature, and humidity data, ensuring roses get the water they need without manual intervention.",
+        "Convenience for Farmers: This system is designed to simplify daily maintenance tasks, allowing farmers in Cihideung to save time and energy.",
+        "Integrated Solutions for Roses: This project offers comprehensive solutions specifically designed to meet the specific needs of ornamental rose cultivation."
+      ],
+      "tools": [
+        "ESP32", "DHT12", "Wifi Router", "Shield ESP32", "Cover Acrylic", "Arudino IDE", "C", "Wifi Library", "Blink"
+      ],
+      "project_images": [
+        "/img/innovillage.jpg", "/project-details/in-1.jpg","/project-details/in-2.jpg" , "/project-details/in-3.jpg", "/project-details/in-5.jpg", "/project-details/in-6.jpg"
+      ]
     }
   ],
   "messages": [
     {
-      "name": "Ms Marvel",
-      "email": "sdsd@gmail.com",
-      "message": "asd",
+      "name": "hafiz yazid muhammad",
+      "email": "hafizyazidmuhammad@gmail.com",
+      "message": "halo sir",
       "id": 1
-    },
-    {
-      "name": "Ms Marvel",
-      "email": "tokorizki@gmail.com",
-      "message": "asas",
-      "id": 2
-    },
-    {
-      "name": "Ms Marvel",
-      "email": "asd@gam.coma",
-      "message": "s",
-      "id": 3
-    },
-    {
-      "name": "Rizki Darmawan",
-      "email": "tokorizki@gmail.com",
-      "message": "hallo",
-      "id": 4
     }
   ]
 }

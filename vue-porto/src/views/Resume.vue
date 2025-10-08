@@ -89,6 +89,15 @@ const achievements =  ref([
   },
 
 ])
+
+const leadership =  ref([
+  {
+    year: "2024 - 2025",
+    job: "Lab Assistant Coordinator",
+    title:"Lab Assistant Coordinator Hardware Embedded System Laboratory Telkom University",
+    description: "Leading a laboratory consisting of 26 laboratory assistants and 10 study group students to support academic activities, including competitions, campus research projects, and learning in the field of hardware and embedded systems.Overseeing laboratory operations, including equipment maintenance, inventory, and human resource allocation.",
+  }
+])
 </script>
 
 <template>
@@ -129,9 +138,20 @@ const achievements =  ref([
           :description="data.description" />
       </Card>
 
+      <!-- Leadership Experience -->
+      <h2 class="fw-bold mt-5">Leadership Experience</h2>
+       <Card v-for="data in leadership" class="mb-4">
+          <Achievement  
+          :year="data.year" 
+          :job="data.job"
+          :title="data.title" 
+          :description="data.description"
+          />
+       </Card>
+
       <!-- Achievement -->
        <h2 class="fw-bold mt-5">Achievement</h2>
-       <Card v-for="data in achievements" class="mb-4">
+       <Card v-for="data in leadership" class="mb-4">
           <Achievement  
           :year="data.year" 
           :job="data.job"
