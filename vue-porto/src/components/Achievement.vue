@@ -28,7 +28,7 @@ const props = defineProps({
 <style scoped>
 .col-md-4 {
   height: auto;
-  background-color: #1B3C53;
+  background: linear-gradient(155deg, #1e40af, #1055C9);
   border-radius: 10px;
 }
 

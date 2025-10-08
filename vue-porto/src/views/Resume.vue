@@ -92,8 +92,10 @@ const achievements =  ref([
 </script>
 
 <template>
-  <div>
-    <Hero :name="name" :job="job" :description="description" :image="image" />
+  <div class="container">
+    <div class="col-md-10 mx-auto">
+      <Hero :name="name" :job="job" :description="description" :image="image" />
+    </div>
   </div>
   <!-- make resume component -->
   <div class="container" id="resume">
@@ -138,14 +140,16 @@ const achievements =  ref([
           />
        </Card>
     </div>
-    <div>
-      <About
-        small-description=""
-        description="A recent graduate of Information Technology from Telkom University with a specialization in  full-stack programming. Experienced in building responsive and secure web applications using Laravel, VueJS, and NodeJS."
-        github="hafizyzd"
-        linkedin="hafiz-yazid-muhammad"
-        instagram="its.hafizyazid"
-      />
+    <div class="container">
+      <div class="col-md-10 mx-auto">
+        <About
+          small-description=""
+          description="A recent graduate of Information Technology from Telkom University with a specialization in  full-stack programming. Experienced in building responsive and secure web applications using Laravel, VueJS, and NodeJS."
+          github="hafizyzd"
+          linkedin="hafiz-yazid-muhammad"
+          instagram="its.hafizyazid"
+        />
+      </div>
     </div>
   </div>
 

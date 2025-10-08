@@ -20,7 +20,7 @@ onMounted(() => {
 <template>
   <div class="container" id="project">
     <div class="col-md-10 mx-auto">
-      <h1 class="text-center fw-bold fs-1 mt-5">My Projects</h1>
+      <h1 class="text-center fw-bold fs-1 mt-5">Projects</h1>
       <Card v-for="data in query" class="my-5">
         <div class="row">
           <div class="col-md-5 align-self-center">
@@ -31,12 +31,14 @@ onMounted(() => {
             <p>
               {{ data.description }}
             </p>
-            <a :href="data.link_demo" class="btn btn-secondary btn-sm"
-              >Visit demo</a
-            >
-            <a :href="data.link_github" class="ms-1 btn btn-primary btn-sm"
-              >Source Code</a
-            >
+              <a :href="data.link_demo" class="btn btn-secondary btn-sm">
+                <span class="material-symbols-outlined">frame_inspect</span>
+                View Details
+              </a>
+              <a :href="data.link_github" class="ms-1 btn btn-primary btn-sm">
+                <span class="material-symbols-outlined">code</span>
+                Source Code
+              </a>
           </div>
         </div>
       </Card>
@@ -49,11 +51,17 @@ onMounted(() => {
   min-height: 100vh;
 }
 .btn-secondary {
-  background-color: #5a5a5a;
+  background-color: linear-gradient(155deg, #393E46, #948979);;
   color: white;
   border: none;
 }
 .btn-primary {
-  background-color: rgb(58, 151, 250);
+  background-color: linear-gradient(155deg, #1e40af, #1055C9);
+}
+
+.btn {
+  display: inline-flex; 
+  align-items: center;  
+  gap: 6px;             
 }
 </style>

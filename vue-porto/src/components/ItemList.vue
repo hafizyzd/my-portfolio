@@ -12,7 +12,7 @@ const props = defineProps({
 ul li {
   font-size: 15px;
   padding: 5px 20px;
-  background-color: #1B3C53;
+  background: linear-gradient(155deg, #1e40af, #1055C9);
   list-style: none;
   border-radius: 50px;
   font-weight: bold;
