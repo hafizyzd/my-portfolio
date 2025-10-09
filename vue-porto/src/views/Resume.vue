@@ -151,7 +151,7 @@ const leadership =  ref([
 
       <!-- Achievement -->
        <h2 class="fw-bold mt-5">Achievement</h2>
-       <Card v-for="data in leadership" class="mb-4">
+       <Card v-for="data in achievements" class="mb-4">
           <Achievement  
           :year="data.year" 
           :job="data.job"
