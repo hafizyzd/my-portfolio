@@ -9,10 +9,11 @@ const project = ref(null);
 
 const getProjectDetails = () => {
     const projectID = route.params.id;
-    axios 
-        .get(`http://localhost:3000/porto/${projectID}`)
+    axios
+        .get('/db.json') // Ubah URL ini
         .then((res) => {
-            project.value = res.data;
+            // Cari proyek berdasarkan id
+            project.value = res.data.porto.find(p => p.id === projectID);
         })
         .catch((err) => {
             console.log("Failed to fetch project details:", err.message);

@@ -108,7 +108,7 @@ const leadership =  ref([
   </div>
   <!-- make resume component -->
   <div class="container" id="resume">
-    <div class="col-md-8 mx-auto">
+    <div class="col-md-8 mx-auto mt-2">
       <h1 class="text-center fw-bold fs-1">Resume</h1>
 
       <!-- Skill -->

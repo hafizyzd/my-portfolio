@@ -5,9 +5,9 @@ import axios from "axios";
 const query = ref({});
 const getData = () => {
   axios
-    .get("http://localhost:3000/porto")
+    .get("/db.json") // Ubah URL ini
     .then((res) => {
-      query.value = res.data;
+      query.value = res.data.porto; // Ambil data dari array "porto"
     })
     .catch((err) => {
       console.log(err);
