@@ -106,18 +106,15 @@ const leadership =  ref([
       <Hero :name="name" :job="job" :description="description" :image="image" />
     </div>
   </div>
-  <!-- make resume component -->
   <div class="container" id="resume">
     <div class="col-md-8 mx-auto mt-2">
       <h1 class="text-center fw-bold fs-1">Resume</h1>
 
-      <!-- Skill -->
       <h2 class="fw-bold mt-5">Skills</h2>
       <Card>
         <List :data="skill" />
       </Card>
 
-      <!-- Experience -->
       <h2 class="fw-bold mt-5">Experiences</h2>
       <Card v-for="data in experience" class="mb-4">
         <CardItem
@@ -127,7 +124,6 @@ const leadership =  ref([
           :description="data.description" />
       </Card>
 
-      <!-- Education -->
       <h2 class="fw-bold mt-5">Education</h2>
       <Card v-for="data in education" class="mb-4">
         <CardItem
@@ -138,7 +134,6 @@ const leadership =  ref([
           :description="data.description" />
       </Card>
 
-      <!-- Leadership Experience -->
       <h2 class="fw-bold mt-5">Leadership Experience</h2>
        <Card v-for="data in leadership" class="mb-4">
           <Achievement  
@@ -149,7 +144,6 @@ const leadership =  ref([
           />
        </Card>
 
-      <!-- Achievement -->
        <h2 class="fw-bold mt-5">Achievement</h2>
        <Card v-for="data in achievements" class="mb-4">
           <Achievement  

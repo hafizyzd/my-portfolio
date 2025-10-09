@@ -38,9 +38,8 @@ const props = defineProps({
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* ▼ TAMBAHKAN KODE INI ▼ */
 .hero-image {
-  max-width: 350px; /* Perkecil ukuran default gambar */
+  max-width: 350px; 
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -61,10 +60,9 @@ const props = defineProps({
     height: auto !important;
     text-align: center;
   }
-  /* ▼ TAMBAHKAN KODE INI ▼ */
   .hero-image {
-    margin-top: 2rem; /* Beri jarak atas pada mobile */
-    max-width: 300px; /* Perkecil lagi ukurannya untuk tablet/mobile */
+    margin-top: 2rem; 
+    max-width: 300px; 
   }
 }
 

@@ -10,9 +10,8 @@ const project = ref(null);
 const getProjectDetails = () => {
     const projectID = route.params.id;
     axios
-        .get('/db.json') // Ubah URL ini
+        .get('/db.json') 
         .then((res) => {
-            // Cari proyek berdasarkan id
             project.value = res.data.porto.find(p => p.id === projectID);
         })
         .catch((err) => {
