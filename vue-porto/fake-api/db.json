@@ -47,7 +47,20 @@
       "image": "/img/btp.jpg",
       "description": "This project was undertaken to address the needs of Bandung Techno Park for a comprehensive web-based system that could efficiently manage and facilitate the rental of rooms within their facilities. The goal was to create a secure, scalable, and user-friendly platform using Laravel that would streamline the process of room bookings, provide real-time availability, and handle user interactions seamlessly.",
       "link_demo": "",
-      "link_github": "https://github.com/tutupharirabu/Project-BTP.git"
+      "link_github": "https://github.com/tutupharirabu/Project-BTP.git",
+      "key_features": [
+        "Room Rental Management: Developed a dedicated module for managing room rentals, including features for viewing availability, booking rooms, and processing payments. This system was tailored to meet the specific needs of Bandung Techno Park.",
+        "Real-Time Availability : Integrated real-time updates for room availability to inform users of booking confirmations, cancellations, or changes.",
+        "Responsive User Interface: Created a user-friendly frontend using Laravel Blade templates, ensuring that the website is accessible and easy to navigate across various devices.",
+        "Data Security & Integrity: Employed Laravel security features to protect user data, ensure secure transactions, and prevent common web vulnerabilities such as SQL Injection and Cross-Site Request Forgery (CSRF).",
+        "Comprehensive Dashboard: Developed an admin dashboard for managing room details, monitoring bookings, and generating reports on usage and occupancy rates."
+      ],
+      "tools": [
+       "Laravel (PHP Framework)","Blade Templates", "MySQL", "Postman", "Git"," Composer"
+      ],
+      "project_images": [
+        "/project-details/btp-ad-login.png", "/project-details/btp-ad-info.png","/project-details/btp-ad-ruangan.png" , "/project-details/btp-ad-riwayat.png", "/project-details/btp-ad-status.png", "/project-details/btp-cs-home.png", "/project-details/btp-cs-form.png", "/project-details/btp-cs-status.png"
+      ]
     },
     {
       "id": "4",

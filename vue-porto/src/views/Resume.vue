@@ -101,7 +101,7 @@ const leadership =  ref([
 </script>
 
 <template>
-  <div class="container">
+  <div class="container main-content-wrapper">
     <div class="col-md-10 mx-auto">
       <Hero :name="name" :job="job" :description="description" :image="image" />
     </div>

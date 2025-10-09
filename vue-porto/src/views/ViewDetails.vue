@@ -54,7 +54,7 @@ onMounted(() => {
         </Card>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 mt-2">
                 <Card class="text-start">
                     <h3>Feature</h3>
                     <ul>
@@ -62,7 +62,7 @@ onMounted(() => {
                     </ul>
                 </Card>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-2">
                 <Card class="text-start">
                     <h3>Tools</h3>
                     <ul>
