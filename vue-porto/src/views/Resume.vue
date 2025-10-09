@@ -11,7 +11,7 @@ import imageHafiz from "../assets/img/Hafiz_4x6.jpg";
 const name = "Hafiz Yazid Muhammad";
 const job = "IT Developer";
 const description =
-  "Fresh graduate of Telkom University's Information Technology program, specializing in full-stack programming. Experienced in designing and building responsive and secure web applications using Laravel, VueJS, NodeJS, and relational databases such as MySQL and Oracle SQL. Familiar with clean architecture approaches, performance optimization, and efficient API development. Actively contributes to full- stack programming projects with measurable results and is ready to make a positive impact as a solution- oriented full- stack programmer.";
+  "Fresh graduate of Telkom University's Information Technology program, specializing in full-stack programming. Experienced in designing and building responsive and secure web applications using Laravel, VueJS, NodeJS, and relational databases such as MySQL and Oracle SQL. Familiar with clean architecture approaches, performance optimization, and efficient API development. Actively contributes to full-stack programming projects with measurable results and is ready to make a positive impact as a solution oriented full-stack programmer.";
 const image = imageHafiz;
 
 const skill = ref([
@@ -52,14 +52,14 @@ const experience = ref([
     job: "Assistant Practicum",
     location: "Informatics Lab Telkom University, Bandung",
     description:
-      "Mentored more than 100 students in web programming and database practicums, successfully imparting material comprehension based on final student evaluations.",
+      "Mentored more than 100 students in web programming and database practicums, successfully imparting material comprehension based on final student evaluations. Delivering comprehensive material covering full-stack technology (PHP, Javascript, Ajax, MySQL, Oracle SQL) and fundamental database concepts, ensuring students can build functional web applications.",
   },
   {
     year: "Mar 2024 - Aug 2025",
     job: "Software Engineer",
     location: "Bandung Techno Park, Bandung",
     description:
-      "Developing the “SpaceRent BTP” application in 6 months, successfully increased room management and booking efficiency by up to50% through an automated system.",
+      "Developed 5 key features for a scalable web application using Laravel (MVC), which successfully improved code maintenance efficiency and accelerated the addition of new featuresDeveloping the “SpaceRent BTP” application in 6 months, successfully increased room management and booking efficiency by up to 50% through an automated system.",
   },
 ]);
 
